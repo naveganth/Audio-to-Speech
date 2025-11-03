@@ -9,7 +9,6 @@ import {
   DropdownMenuSubTrigger,
 } from '@/components/ui/dropdown-menu';
 
-// Tipagem para as props
 interface PositionSettingsProps {
   position: string;
   setPosition: (position: string) => void;
